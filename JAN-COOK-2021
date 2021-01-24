@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int test;
+	cin>>test;
+	while(test--){
+		int len,ran;
+		cin>>len>>ran;
+		cout<<2*(ran-len)+1<<endl;
+	}
+	return 0;
+}
